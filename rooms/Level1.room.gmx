@@ -54,9 +54,8 @@
     <instance objName="grass" x="180" y="620" name="inst_98C2113B" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="donut1" x="300" y="60" name="inst_55E4495E" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ant" x="180" y="630" name="inst_2DD54E5F" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="top_stone" x="180" y="570" name="inst_815B8487" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="leaf_left" x="180" y="510" name="inst_B2B7B672" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="right_leaf" x="120" y="510" name="inst_C636E092" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="matchstick1_top" x="180" y="570" name="inst_8DA193DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="matchstick1_top" x="180" y="510" name="inst_FDE4E641" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -78,7 +78,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="left_matchstick1">
+    <event eventtype="4" ename="matchstick1_right">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -103,7 +103,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="top_matchstick1">
+    <event eventtype="4" ename="matchstick1_bottom">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -128,7 +128,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="left_stone">
+    <event eventtype="4" ename="matchstick1_top">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -153,7 +153,89 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="right_stone">
+    <event eventtype="4" ename="matchstick1_left">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (self.x &gt; other.x - 2 &amp;&amp; self.x &lt; other.x + 2 &amp;&amp; self.y &gt; other.y - 2 &amp;&amp; self.y &lt; other.y + 2) {
+    self.direction = other.image_angle
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="donut1">
+      <action>
+        <libid>1</libid>
+        <id>222</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_next_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="4" ename="cake">
+      <action>
+        <libid>1</libid>
+        <id>222</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_next_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="4" ename="stone_left">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (self.x &gt; other.x - 2 &amp;&amp; self.x &lt; other.x + 2 &amp;&amp; self.y &gt; other.y - 2 &amp;&amp; self.y &lt; other.y + 2) {
+    self.direction = other.image_angle
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="stone_right">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -228,6 +310,31 @@
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="leaf_bottom">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (self.x &gt; other.x - 2 &amp;&amp; self.x &lt; other.x + 2 &amp;&amp; self.y &gt; other.y - 2 &amp;&amp; self.y &lt; other.y + 2) {
+    self.direction = other.image_angle
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="top_leaf_yellow2">
       <action>
         <libid>1</libid>
@@ -254,6 +361,31 @@
       </action>
     </event>
     <event eventtype="4" ename="top_leaf_yellow1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (self.x &gt; other.x - 2 &amp;&amp; self.x &lt; other.x + 2 &amp;&amp; self.y &gt; other.y - 2 &amp;&amp; self.y &lt; other.y + 2) {
+    self.direction = other.image_angle
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="leaf_top">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -328,6 +460,31 @@
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="leaf_left">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (self.x &gt; other.x - 2 &amp;&amp; self.x &lt; other.x + 2 &amp;&amp; self.y &gt; other.y - 2 &amp;&amp; self.y &lt; other.y + 2) {
+    self.direction = other.image_angle
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="right_leaf_yellow2">
       <action>
         <libid>1</libid>
@@ -378,114 +535,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="donut1">
-      <action>
-        <libid>1</libid>
-        <id>222</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_next_room</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-    </event>
-    <event eventtype="4" ename="cake">
-      <action>
-        <libid>1</libid>
-        <id>222</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_next_room</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-    </event>
-    <event eventtype="4" ename="bottom_leaf">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if (self.x &gt; other.x - 2 &amp;&amp; self.x &lt; other.x + 2 &amp;&amp; self.y &gt; other.y - 2 &amp;&amp; self.y &lt; other.y + 2) {
-    self.direction = other.image_angle
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="top_leaf">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if (self.x &gt; other.x - 2 &amp;&amp; self.x &lt; other.x + 2 &amp;&amp; self.y &gt; other.y - 2 &amp;&amp; self.y &lt; other.y + 2) {
-    self.direction = other.image_angle
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="leaf_left">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if (self.x &gt; other.x - 2 &amp;&amp; self.x &lt; other.x + 2 &amp;&amp; self.y &gt; other.y - 2 &amp;&amp; self.y &lt; other.y + 2) {
-    self.direction = other.image_angle
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="right_leaf">
+    <event eventtype="4" ename="leaf_right">
       <action>
         <libid>1</libid>
         <id>603</id>

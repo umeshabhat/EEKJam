@@ -34,6 +34,8 @@
     <sprite>sprites\sprite_bottom_matchstick1</sprite>
     <sprite>sprites\sprite_top_matchstick2</sprite>
     <sprite>sprites\sprite_left_matchstick2</sprite>
+    <sprite>sprites\sprite_right_matchstick2</sprite>
+    <sprite>sprites\sprite_bottom_matchstick2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Water</background>
@@ -43,26 +45,28 @@
     <object>objects\object_start</object>
     <object>objects\object_end</object>
     <object>objects\ant</object>
-    <object>objects\right_leaf</object>
+    <object>objects\leaf_top</object>
+    <object>objects\leaf_bottom</object>
+    <object>objects\leaf_left</object>
+    <object>objects\leaf_right</object>
     <object>objects\right_leaf_yellow1</object>
     <object>objects\right_leaf_yellow2</object>
-    <object>objects\leaf_left</object>
     <object>objects\left_leaf_yellow1</object>
     <object>objects\left_leaf_yellow2</object>
-    <object>objects\top_leaf</object>
     <object>objects\top_leaf_yellow1</object>
     <object>objects\top_leaf_yellow2</object>
-    <object>objects\bottom_leaf</object>
     <object>objects\bottom_leaf_yellow1</object>
     <object>objects\bottom_leaf_yellow2</object>
-    <object>objects\right_stone</object>
-    <object>objects\left_stone</object>
-    <object>objects\top_stone</object>
+    <object>objects\stone_right</object>
+    <object>objects\stone_left</object>
+    <object>objects\stone_top</object>
     <object>objects\grass</object>
     <object>objects\cake</object>
     <object>objects\donut1</object>
-    <object>objects\left_matchstick1</object>
-    <object>objects\top_matchstick1</object>
+    <object>objects\matchstick1_top</object>
+    <object>objects\matchstick1_bottom</object>
+    <object>objects\matchstick1_left</object>
+    <object>objects\matchstick1_right</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level1</room>
